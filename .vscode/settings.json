@@ -2,7 +2,12 @@
     "cSpell.words": [
         "atclone",
         "atpull",
+        "getchar",
+        "lazypath",
+        "lazyrepo",
+        "nvim",
         "starshio",
+        "stdpath",
         "zdharma",
         "zinit"
     ]

@@ -31,7 +31,8 @@ alias ll="eza -l --icons"
 alias la="eza -la --icons"
 alias lg="eza -l --icons --git "
 alias tree="eza --tree --git-ignore"
-
-printf '\33c\e[3J'
-
-. "$HOME/.local/share/../bin/env"
+alias andrew="sshpass -f ~/.ssh/andrew ssh andrew"
+alias afs='mkdir -p ~/afs && sshfs eddielin@linux.andrew.cmu.edu: ~/afs -ovolname=Andrew'
+alias uafs='diskutil unmount ~/afs && rmdir ~/afs'
+alias start_ctf="sshpass -p 'ctfiniq32025!' ssh -f -D 8123 -C -q -N tunneller@ctf.ini.cmu.edu"
+alias stop_ctf="pkill -f 'ssh.*tunneller@ctf.ini.cmu.edu'"
